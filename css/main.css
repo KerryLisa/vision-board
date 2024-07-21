@@ -1,0 +1,80 @@
+/****** Global Styles ******/
+
+body {
+    background: #e8e8e8;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+/****** Vision Board Styles ******/
+
+#vision-board{
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    background:Url('../img/background.png');
+    background-size: cover;
+}
+
+.block {
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.black-bg {
+    color: white;
+    background: #3b3b3b;
+}
+
+.white-bg {
+    background: white;
+}
+
+.highlight {
+    background: #fff44f;
+    padding: 7px 13px;
+    font-size: 18px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.year {
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.extra-padding {
+    padding-top: 40px;
+}
